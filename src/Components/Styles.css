@@ -41,6 +41,10 @@ nav{
     left: 30px;
 }
 
+#buttons{
+    background-color: transparent;
+}
+
 #mobile{
     display: none;
 }
@@ -57,7 +61,7 @@ nav{
         align-items: flex-start;
         justify-content: flex-start;
         position: fixed;
-        top: 25px;
+        top: 35px;
         right: -300px;
         width: 200px;
         height: 100vh;
