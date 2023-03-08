@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import './Styles.css'
 import {Button} from '@mui/material'
+import { color } from '@mui/system';
+import { green } from '@mui/material/colors';
 
 class Home extends Component {
     state = {clicked: false};
@@ -33,20 +35,28 @@ class Home extends Component {
                 </li>
             </ul>
         </div>
-        <div id='buttons'>
+        {/* <div id='buttons'>
             <button>Sign In</button>
             <button>Sign Up</button>
-        </div>
-        {/* <div>
-            <Button sx={{
-                
-    ":hover": {
-      bgcolor: "green",
-      
-    }
-  }}>Sign In</Button>
-            <Button>Sign Up</Button>
         </div> */}
+        
+        <div>
+            <Button sx={{
+                ":hover": {
+                    bgcolor: "ABEBC6",
+                    color: 'green',
+                  }
+                  }} >Sign In</Button>
+                  <span>
+                    &nbsp;&nbsp;
+                  </span>
+            <Button sx={{
+                ":hover": {
+                    bgcolor: "ABEBC6",
+                    color: 'green',
+                  }
+                  }}>Sign Up</Button>
+        </div>
         <div id="mobile" onClick={this.handleClick}>
             <i id="bar" className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
         </div>
