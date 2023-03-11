@@ -1,10 +1,16 @@
-import React, { Component } from 'react'
+import React, { Component, useState } from 'react'
 import './Styles.css'
-import {Button} from '@mui/material'
-import { color } from '@mui/system';
-import { green } from '@mui/material/colors';
+import {Button, Model} from '@mui/material'
+import modalStyle from './ModelStyle';
+
+
+// you cannot declare useState in class component so declare it in render before return...
+// const classes = useStyles()
+// const [modalStyle] = useState(getModalStyle)
+
 
 class Home extends Component {
+
     state = {clicked: false};
     handleClick = () =>{
         this.setState({clicked:!
@@ -35,10 +41,6 @@ class Home extends Component {
                 </li>
             </ul>
         </div>
-        {/* <div id='buttons'>
-            <button>Sign In</button>
-            <button>Sign Up</button>
-        </div> */}
         
         <div>
             <Button sx={{
