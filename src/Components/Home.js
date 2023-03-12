@@ -1,15 +1,10 @@
 import React, { Component, useState } from 'react'
 import './Styles.css'
-import {Button, Model} from '@mui/material'
-import modalStyle from './ModelStyle';
-
-
-// you cannot declare useState in class component so declare it in render before return...
-// const classes = useStyles()
-// const [modalStyle] = useState(getModalStyle)
-
+import {Button, Modal} from '@mui/material'
+import { useNavigate } from 'react-router-dom';
 
 class Home extends Component {
+    navigate = useNavigate();
 
     state = {clicked: false};
     handleClick = () =>{
