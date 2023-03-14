@@ -1,31 +1,29 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import { ThemeProvider } from '@mui/material';
-import { createTheme } from '@mui/material/styles';
-
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { ThemeProvider } from "@mui/material";
+import { createTheme } from "@mui/material/styles";
 
 const theme = createTheme({
   palette: {
-     primary: {
-        main: "#FFFFFF" ,
-               },
-     secondary: {
-        main: "#ffcc80" //Another orange-ish color
-                }
-           },
-// fontFamily: font // as an aside, highly recommend importing roboto font for Material UI projects! Looks really nice
+    primary: {
+      main: "#FFFFFF",
+    },
+    secondary: {
+      main: "#ffcc80", //Another orange-ish color
+    },
+  },
+  // fontFamily: font // as an aside, highly recommend importing roboto font for Material UI projects! Looks really nice
 });
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
+  <React.Fragment>
     <ThemeProvider theme={theme}>
-    <App />
+      <App />
     </ThemeProvider>
-    
-  </React.StrictMode>
+  </React.Fragment>
 );
 
 // If you want to start measuring performance in your app, pass a function
