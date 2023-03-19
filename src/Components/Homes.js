@@ -1,10 +1,17 @@
 import React from 'react'
+import { Container } from '@mui/system'
+import Fotter from './Fotter'
 
 function Homes() {
   return (
+    <>
+    <Container>
+      <p>This is home page...</p>
+    </Container>
     <div>
-      <p>This is home page</p>
+        <Fotter />
     </div>
+    </>
   )
 }
 
