@@ -87,3 +87,10 @@ nav{
     }
 
 }
+#Footer li{
+    list-style: none;
+}
+
+#Footer li a{
+    text-decoration: none;
+}
