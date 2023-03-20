@@ -1,7 +1,6 @@
 {
   "name": "project_1",
   "version": "0.1.0",
-  "homepage": "https://gowthamsai09.github.io/React_Application/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",
@@ -24,8 +23,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
