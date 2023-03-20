@@ -70,3 +70,50 @@
 // }
 
 // export default modalStyle
+
+{/* <Card sx={{ maxWidth: 345 }}>
+      <CardMedia
+        sx={{ height: 140 }}
+        image=""
+        title=""
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+          Lorem
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ornare vestibulum turpis, ac molestie eros congue eu. Proin non posuere arcu. Nullam justo ante, lacinia commodo mattis eu, laoreet vel ligula. Morbi id orci venenatis, hendrerit tortor eu, egestas sapien. Praesent ornare, arcu ut ornare elementum, metus orci laoreet quam, a lobortis lectus velit non lectus. Vivamus eget dictum nisl. Suspendisse ac facilisis felis. Vivamus quis pretium lectus, eget mollis dolor. Curabitur mauris sem, semper at augue vitae, volutpat condimentum orci. Vivamus auctor lectus id nibh posuere, et maximus neque tempor. Sed at dolor viverra, auctor mi at, mattis arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button size="small" color='secondary'>Share</Button>
+      <span>
+        &nbsp;
+        &nbsp;
+      </span>
+        <Button size="small" color='secondary'>Learn More</Button>
+      </CardActions>
+    </Card>
+    <Card sx={{ maxWidth: 345 }}>
+      <CardMedia
+        sx={{ height: 140 }}
+        image="/static/images/cards/contemplative-reptile.jpg"
+        title="green iguana"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+          Lorem
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ornare vestibulum turpis, ac molestie eros congue eu. Proin non posuere arcu. Nullam justo ante, lacinia commodo mattis eu, laoreet vel ligula. Morbi id orci venenatis, hendrerit tortor eu, egestas sapien. Praesent ornare, arcu ut ornare elementum, metus orci laoreet quam, a lobortis lectus velit non lectus. Vivamus eget dictum nisl. Suspendisse ac facilisis felis. Vivamus quis pretium lectus, eget mollis dolor. Curabitur mauris sem, semper at augue vitae, volutpat condimentum orci. Vivamus auctor lectus id nibh posuere, et maximus neque tempor. Sed at dolor viverra, auctor mi at, mattis arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button size="small" color='secondary'>Share</Button>
+      <span>
+        &nbsp;
+        &nbsp;
+      </span>
+        <Button size="small" color='secondary'>Learn More</Button>
+      </CardActions>
+    </Card> */}
