@@ -1,17 +1,21 @@
 import React from 'react'
-import { Container } from '@mui/system'
 import Fotter from './Fotter'
+import {  Grid} from '@mui/material'
+import Homecontent from './Homecontent';
+
 
 function Homes() {
   return (
-    <>
-    <Container>
-      <p>This is home page...</p>
-    </Container>
-    <div>
-        <Fotter />
-    </div>
-    </>
+    <Grid container direction={'column'}>
+      <Grid item container>
+        <Grid item xs={false} sm={2} />
+        <Grid item xs={12} sm={8}>
+        <Homecontent />
+        </Grid>
+      <Grid item xs={false} sm={2}/>
+      </Grid>
+      <Fotter />
+    </Grid>
   )
 }
 

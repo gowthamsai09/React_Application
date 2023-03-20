@@ -56,10 +56,8 @@ class Navbar extends Component {
         <div id="mobile" onClick={this.handleClick}>
             <i id="bar" className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
         </div>
-        
     </nav>
     </div>
-    
   )
 }
 }
