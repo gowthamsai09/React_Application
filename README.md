@@ -6,7 +6,7 @@
 
 Download the project.     
 Open it in visual studio code.    
-In terminal write npm install. To install all required libraries.
+In terminal write npm install. To install all required libraries.   
 use npm start command.
 
 ### `npm start`
