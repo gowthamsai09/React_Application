@@ -1,5 +1,5 @@
 import React from 'react'
-import Fotter from './Fotter'
+import Fotter from '../Fotter'
 import {  Grid} from '@mui/material'
 import Homecontent from './Homecontent';
 

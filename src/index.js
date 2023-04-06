@@ -8,12 +8,13 @@ import { createTheme } from "@mui/material/styles";
 
 const theme = createTheme({
   palette: {
-    primary: {
-      main: "#FFFFFF",
+    // primary: {
+    //   main: "#FFFFFF",
+    // },
+    Secondary: {
+      main: "#FFFFFF", 
     },
-    secondary: {
-      main: "#3f50b5", //Another orange-ish color
-    },
+    //#3f50b5 Another orange-ish color
   },
   // fontFamily: font // as an aside, highly recommend importing roboto font for Material UI projects! Looks really nice
 });

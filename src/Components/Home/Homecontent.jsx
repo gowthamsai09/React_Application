@@ -1,7 +1,7 @@
 import { Grid } from "@mui/material";
 import React from "react";
 import Cards from "./Cards";
-import constants from "./constants";
+import constants from "../constants";
 const Homecontent = () => {
   const getConstants = (constantsObj) => {
     // const {title, subHeader, avatarSrc,description,imgSrc} = constantsObj
