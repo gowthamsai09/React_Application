@@ -25,7 +25,7 @@ class Navbar extends Component {
                     <Link to='/browse'>Browse</Link>
                 </li>
                 <li>
-                    <Link to='/create'>Create</Link>
+                    <Link to='/pricing'>Pricing</Link>
                 </li>
                 <li>
                     <Link to='/About'>About</Link>
@@ -37,7 +37,7 @@ class Navbar extends Component {
         </div>
         
         <div>
-            <Button sx={{
+            <Button color='Secondary' sx={{
                 ":hover": {
                     bgcolor: "ABEBC6",
                     color: 'green',
@@ -46,7 +46,7 @@ class Navbar extends Component {
                   <span>
                     &nbsp;&nbsp;
                   </span>
-            <Button sx={{
+            <Button color='Secondary' sx={{
                 ":hover": {
                     bgcolor: "ABEBC6",
                     color: 'green',
